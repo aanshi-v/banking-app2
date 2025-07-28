@@ -17,8 +17,8 @@ Purpose: Automatically calculates and credits daily interest to all customer acc
 
 How it Works:
 
-Formula:
-Daily Interest = Account Balance × 3% ÷ 365
+Formula: <br>
+Daily Interest = Account Balance × 3% ÷ 365  <br>
 Loops through all accounts, calculates daily interest, updates account balance, and records the transaction in the CreditInterest table.
 
 (For demo, the process is triggered manually or on a shorter schedule instead of quarterly.)
